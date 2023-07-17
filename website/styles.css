@@ -1,0 +1,123 @@
+
+/*        p {
+            font-size: 45px;
+            margin: 30px;
+        }*/
+        h1 {
+/*            font-size: 8vw;*/
+/*            font-size: 130px;*/
+            margin: 20px;
+        }
+        body {
+            background-color: #F4F4F4;
+            font-family: helvetica;
+/*            padding: 75px;
+            padding-right: 75px;
+            padding-left: 75px;*/
+/*            font-size: 45px;*/
+/*            max-width: 1200px;*/
+/*            margin-left: 2%;
+            margin-right: 2%;*/
+/*            All of this is covered by the div.bod centering*/
+        }
+        nav {
+/*            float: right;*/
+            /*font-size: 35px;
+            display: inline;
+            margin-left: 60vw;*/
+/*            margin-bottom: 50px;*/
+            direction: rtl;
+            font-size: 35px;
+/*            padding-right: 8vw;*/
+            max-width: 1400px;
+            margin: auto;
+        }
+        nav a{
+            padding-left: 1.5vw;
+        }
+        li {
+            line-height: 150%;
+        }
+        h2 {
+            font-size: 48px;
+        }
+
+        div.overall {
+            border-top-style:solid; 
+            border-right-style: solid;
+            border-left-style: solid;
+/*            padding-right: 100px; 
+            padding-left: 100px; 
+            padding-bottom: 60px; 
+            padding-top: 60px;*/
+            padding-right: 5vw; 
+            padding-left: 5vw; 
+            padding-bottom: 3vw; 
+            padding-top: 3vw;
+        }
+                div.overall2 {
+            border-top-style:solid; 
+            border-right-style: solid;
+            border-left-style: solid;
+/*            padding-right: 100px; 
+            padding-left: 100px; 
+            padding-bottom: 60px; 
+            padding-top: 60px;*/
+            padding-right: 5vw; 
+            padding-left: 5vw; 
+            padding-bottom: 3vw; 
+            padding-top: 3vw;
+            border-left-style: solid;
+        }
+
+        @media screen and (min-width: 600px){
+                div.grid {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }
+                div.overall2{
+                 border-left-style: none;       
+                }
+            }
+        @media screen and (min-width: 1200px){
+                div.aboutgrid {
+                    display: grid;
+                    grid-template-columns: 50% 50%;
+                }
+            }
+
+        div.quote {
+            border: solid;
+            padding: 30px;
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+        }
+        img {
+            display: block; 
+            margin-left: auto; 
+            margin-right: auto; 
+            width: 65vw; 
+            border: solid;
+            max-width: 1138px;
+        }
+            img.about {
+
+        }
+        div.bod {
+            display: block; 
+            margin: auto;
+            max-width: 1400px; 
+        }
+        div.home {
+            display: block; 
+            margin: auto;
+            max-width: 1200px; 
+        }
+        #maincontent {
+
+        }
+        #maincontent p {
+            padding-top: 1vw;
+            padding-bottom: 1vw;
+        }
